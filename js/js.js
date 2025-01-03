@@ -42,3 +42,5 @@ var discordInvite = discordInvite || function() {
         }
     }
 }();
+
+document.getElementById("currentYear").textContent = new Date().getFullYear();
